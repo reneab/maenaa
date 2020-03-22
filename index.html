@@ -12,6 +12,11 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
 
 	<style>
+		@font-face {
+			font-family: 'Aileron';
+			src: url('fonts/Aileron-Thin.otf'); 
+		}
+
 		body {
 			margin: 0;
 			background-image: url('images/curtains-25.jpg');
@@ -29,18 +34,17 @@
 			height: 100vh;
 			opacity: 60%;
 
-			font-family: 'Montserrat';
-			font-weight: 300;
+			font-family: 'Aileron', 'Open Sans';
 		}
 
 		@media (max-width: 1000px) {
-			#title-container > h2 {
-				font-size: 7vw;
+			#title-container > p {
+				font-size: 8vw;
 			}
 		}
 		@media (min-width: 1000px) {
-			#title-container > h2 {
-				font-size: 4vw;
+			#title-container > p {
+				font-size: 5vw;
 			}
 		}
 
@@ -50,7 +54,7 @@
 <body>
 
 	<div id="title-container">
-		<h2>Coming soon . . .</h2>
+		<p>Coming soon . . .</p>
 	</div>
 
 </body>
